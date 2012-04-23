@@ -14,8 +14,6 @@ using System.IO;
 using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 
-
-
 namespace CordovaStarter4
 {
     public partial class MainPage : PhoneApplicationPage
