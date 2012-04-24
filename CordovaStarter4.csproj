@@ -56,6 +56,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
+    <Reference Include="WP7CordovaClassLib, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -79,6 +80,7 @@
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
     <None Include="BuildManifestProcessor.js" />
+    <Content Include="GapLib\WP7CordovaClassLib.dll" />
     <Content Include="www\cordova-1.7.0.js" />
     <Content Include="www\example2.html" />
     <Content Include="www\example2.js" />
@@ -111,12 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Repos\phonegap\wp7\framework\WP7CordovaClassLib.csproj">
-      <Project>{FC6A1A70-892D-46AD-9E4A-9793F72AF780}</Project>
-      <Name>WP7CordovaClassLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Plugins\" />
